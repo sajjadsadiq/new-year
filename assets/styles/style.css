@@ -10,3 +10,36 @@
   font-family: "Merriweather", serif; 
   */
 }
+
+/* Banner Section Start */
+header,
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.banner {
+  background-image: url("./../images/Banner_Image.png");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 100px 0;
+  text-align: center;
+  border-radius: 16px;
+  padding-top: 205px;
+}
+
+.banner p {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.banner h1 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+/* Banner Section End */
