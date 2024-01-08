@@ -11,13 +11,15 @@
   */
 }
 
-/* Banner Section Start */
+/* Common Styles */
 header,
-main {
+main,
+.footer-wrapper {
   width: 80%;
   margin: 0 auto;
 }
 
+/* Banner Section Start */
 .banner {
   background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("./../images/Banner_Image.png");
@@ -234,3 +236,48 @@ main {
 /* Subscribe Newsletter Section End */
 
 /* Main Section End */
+
+/* Footer Section Start */
+footer {
+  background: #070211;
+  padding: 70px 0;
+}
+
+.footer-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.footer-wrapper hr {
+  height: 1px;
+  background-color: #ffffff26;
+  border: none;
+}
+
+/* Address Inofo */
+.adress-info,
+.copyright-unsubscribe {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+
+.contact-info {
+  display: flex;
+  gap: 16px;
+}
+
+/* Social Icon */
+.social-icon {
+  margin: 48px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+/* Footer Section End */
