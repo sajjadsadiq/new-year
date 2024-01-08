@@ -23,16 +23,18 @@ main,
 .main-banner {
   background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("./../images/Banner_Image.png");
-  height: 600px;
+  background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 600px;
   margin: 50px 0 100px 0;
-  text-align: center;
   border-radius: 16px;
-  padding-top: 205px;
-  background-blend-mode: overlay;
   font-family: Merriweather;
   color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .main-banner p {
