@@ -121,6 +121,7 @@ main,
   font-weight: 700;
   text-transform: uppercase;
   padding-left: 40px;
+  cursor: pointer;
 }
 /* Welcome Party Section End */
 
@@ -213,6 +214,7 @@ main,
   border: none;
   outline: none;
   margin-top: 50px;
+  cursor: pointer;
 }
 
 .hotel-details span {
@@ -409,6 +411,7 @@ main,
   position: absolute;
   top: 0;
   right: 0;
+  cursor: pointer;
 }
 /* Subscribe Newsletter Section End */
 
