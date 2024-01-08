@@ -115,7 +115,7 @@ main,
 }
 
 .welcome-midnight-party button {
-  color: #F00;
+  color: #f00;
   background-color: #fff;
   padding: 16px 32px;
   font-family: Inter;
@@ -442,6 +442,15 @@ footer {
   height: 1px;
   background-color: #ffffff26;
   border: none;
+}
+
+.address-info-wrapper p,
+.contact-info-wrapper .contact-info {
+  margin-bottom: 10px;
+}
+
+.contact-info .contact-website {
+  cursor: pointer;
 }
 
 /* Address Inofo */
