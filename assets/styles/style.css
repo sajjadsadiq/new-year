@@ -154,9 +154,84 @@ main {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 40px;
   margin-top: 50px;
 }
+
+.portfolio-products img {
+  width: 30%;
+}
 /* Portfolio Section End */
+
+/* Subscribe Newsletter Section Start */
+.subscribe-newsletter {
+  background-color: #ff00000d;
+  border-radius: 16px;
+  margin: 100px 0;
+  padding: 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subscribe-newsletter img {
+  width: 150px;
+  height: 150px;
+}
+
+.subscribe-newsletter h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin: 40px 0 20px 0;
+}
+
+.subscribe-newsletter p {
+  color: #07021199;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.input-box-wrapper {
+  margin-top: 50px;
+  width: 650px;
+  max-width: 100%;
+  position: relative;
+}
+
+.input-box-wrapper input {
+  width: 100%;
+  padding: 25px 0 25px 30px;
+  border-radius: 50px;
+  background: #fff;
+  color: #0702114d;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  border: none;
+  outline: none;
+}
+
+.input-box-wrapper button {
+  width: 210px;
+  max-width: 210px;
+  border-radius: 0px 50px 50px 0px;
+  padding: 25px 0;
+  background: #f00;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/* Subscribe Newsletter Section End */
 
 /* Main Section End */
