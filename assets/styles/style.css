@@ -179,6 +179,46 @@ main,
 
 /* Happy New Year Offer Section End */
 
+/* Hotel Details Section Start */
+.hotel-details {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+
+  text-align: center;
+  padding: 150px 0;
+  border-radius: 16px;
+}
+
+.hotel-details p {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.hotel-details button {
+  border-radius: 8px;
+  background: #f00;
+  padding: 16px 32px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  margin-top: 50px;
+}
+
+.hotel-details span {
+  color: #f00;
+}
+/* Hotel Details Section End */
+
 /* Portfolio Section Start */
 .portfolio {
   margin-bottom: 50px 0 150px 0;
