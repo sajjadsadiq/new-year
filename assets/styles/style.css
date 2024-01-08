@@ -219,6 +219,74 @@ main,
 }
 /* Hotel Details Section End */
 
+/* Holidays Sale Descount Section Start */
+.holidays-sale-discount {
+  margin: 100px 0 100px 0;
+}
+
+.holiday-content-area {
+  text-align: center;
+}
+
+.holiday-content-area strong {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.holiday-content-area h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  margin: 16px 0 28px 0;
+}
+
+.holiday-content-area h1 span {
+  color: #f00;
+}
+
+.holiday-content-area p {
+  color: #07021199;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.discount-area {
+  margin: 50px 0;
+  height: 620px;
+  width: 100%;
+  position: relative;
+}
+
+.shopping_girl {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.discount50 {
+  position: absolute;
+  right: 300px;
+  top: 70px;
+}
+
+.red-shape-img {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.gift-box {
+  height: 400px;
+  position: absolute;
+  bottom: 60px;
+  left: 80px;
+}
+/* Holidays Sale Descount Section End */
+
 /* Portfolio Section Start */
 .portfolio {
   margin-bottom: 50px 0 150px 0;
