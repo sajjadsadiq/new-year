@@ -111,17 +111,21 @@ main,
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
-  margin: 25px 0 50px 0;
+  margin: 25px 0 20px 0;
 }
 
-.welcome-midnight-party strong {
-  color: #fff;
+.welcome-midnight-party button {
+  color: #F00;
+  background-color: #fff;
+  padding: 16px 32px;
   font-family: Inter;
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
-  padding-left: 40px;
   cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  outline: none;
 }
 /* Welcome Midnight Party Section End */
 
