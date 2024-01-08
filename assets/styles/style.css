@@ -19,8 +19,8 @@ main,
   margin: 0 auto;
 }
 
-/* Banner Section Start */
-.banner {
+/* Main Banner Section Start */
+.main-banner {
   background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("./../images/Banner_Image.png");
   height: 600px;
@@ -31,58 +31,57 @@ main,
   border-radius: 16px;
   padding-top: 205px;
   background-blend-mode: overlay;
+  font-family: Merriweather;
+  color: #fff;
 }
 
-.banner p {
-  color: #fff;
-  font-family: Merriweather;
+.main-banner p {
   font-size: 32px;
   font-weight: 400;
 }
 
-.banner h1 {
-  color: #fff;
-  font-family: Merriweather;
+.main-banner h1 {
   font-size: 72px;
   font-weight: 900;
 }
-/* Banner Section End */
+/* Main Banner Section End */
 
+/* ---------------------------------- */
 /* Main Section Start */
 
-/* Offer Discount Section Start */
-.offer-discount {
+/* Primary Offer Discount Section Start */
+.primary-offer-discount {
   text-align: center;
   font-family: Inter;
 }
 
-.offer-discount h1 {
+.primary-offer-discount h1 {
   color: #f00;
   font-size: 88px;
   font-weight: 700;
   margin-bottom: 48px;
 }
 
-.offer-discount p {
+.primary-offer-discount p {
   color: #f00;
   font-size: 24px;
   font-weight: 500;
   margin-bottom: 16px;
 }
 
-.offer-discount h2 {
+.primary-offer-discount h2 {
   color: #070211;
   font-size: 48px;
   font-weight: 700;
 }
 
-.offer-discount img {
+.primary-offer-discount img {
   margin: 50px 0 120px 0;
 }
-/* Offer Discount Section End */
+/* Primary Offer Discount Section End */
 
-/* Welcome Party Section Start */
-.welcome-party {
+/* Welcome Midnight Party Section Start */
+.welcome-midnight-party {
   background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("./../images/Vectorrr.png");
   background-size: cover;
@@ -95,7 +94,7 @@ main,
   padding: 0 100px;
 }
 
-.welcome-party h1 {
+.welcome-midnight-party h1 {
   color: #fff;
   font-family: Merriweather;
   font-size: 64px;
@@ -104,7 +103,7 @@ main,
   letter-spacing: 7.04px;
 }
 
-.welcome-party p {
+.welcome-midnight-party p {
   color: #ffffffcc;
   font-family: Inter;
   font-size: 18px;
@@ -113,9 +112,8 @@ main,
   margin: 25px 0 50px 0;
 }
 
-.welcome-party strong {
+.welcome-midnight-party strong {
   color: #fff;
-  text-align: center;
   font-family: Inter;
   font-size: 20px;
   font-weight: 700;
@@ -123,10 +121,50 @@ main,
   padding-left: 40px;
   cursor: pointer;
 }
-/* Welcome Party Section End */
+/* Welcome Midnight Party Section End */
 
-/* Happy New Year Offer Section Start */
-.happy-new-year-offer {
+/* Hotel Event Details Section Start */
+.hotel-event-details {
+  font-family: Inter;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+
+  text-align: center;
+  padding: 150px 0;
+  border-radius: 16px;
+}
+
+.hotel-event-details p {
+  color: #070211;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.hotel-event-details button {
+  border-radius: 8px;
+  background: #f00;
+  padding: 16px 32px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.hotel-event-details span {
+  color: #f00;
+}
+/* Hotel Event Details Section End */
+
+/* Upcoming Best Offer Section Start */
+.upcoming-best-offer {
   display: flex;
   align-items: center;
   gap: 40px;
@@ -134,19 +172,19 @@ main,
   margin: 100px 0 150px 0;
 }
 
-.offer-soon,
+.upcoming-offer-soon,
 .friends-party-img {
   width: 40%;
 }
 
-.offer-soon strong {
+.upcoming-offer-soon strong {
   color: #f00;
   font-family: Inter;
   font-size: 24px;
   font-weight: 500;
 }
 
-.offer-soon h3 {
+.upcoming-offer-soon h3 {
   color: #070211;
   font-family: Merriweather;
   font-size: 48px;
@@ -154,7 +192,7 @@ main,
   margin: 16px 0 22px 0;
 }
 
-.new-year-description {
+.upcoming-offer-description {
   color: #07021199;
   font-family: Inter;
   font-size: 20px;
@@ -168,63 +206,21 @@ main,
   padding: 40px;
 }
 
-.new-year-2024 {
+.upcoming-offer-2024 {
   width: 20%;
 }
 
-.new-year-2024 h1 {
+.upcoming-offer-2024 h1 {
   color: #f00;
   font-family: Inter;
   font-size: 48px;
   font-weight: 700;
 }
 
-.new-year-description{
+.upcoming-offer-paragraph {
   margin: 16px 0 45px 0;
 }
-
-/* Happy New Year Offer Section End */
-
-/* Hotel Details Section Start */
-.hotel-details {
-  background: linear-gradient(
-    180deg,
-    rgba(255, 0, 0, 0.1) 0%,
-    rgba(255, 0, 0, 0) 100%
-  );
-
-  text-align: center;
-  padding: 150px 0;
-  border-radius: 16px;
-}
-
-.hotel-details p {
-  color: #070211;
-  font-family: Inter;
-  font-size: 32px;
-  font-weight: 600;
-  margin-bottom: 16px;
-}
-
-.hotel-details button {
-  border-radius: 8px;
-  background: #f00;
-  padding: 16px 32px;
-  text-transform: uppercase;
-  color: #fff;
-  font-family: Inter;
-  font-size: 20px;
-  font-weight: 700;
-  border: none;
-  outline: none;
-  margin-top: 50px;
-  cursor: pointer;
-}
-
-.hotel-details span {
-  color: #f00;
-}
-/* Hotel Details Section End */
+/* Upcoming Best Offer Section End */
 
 /* Holidays Sale Descount Section Start */
 .holidays-sale-discount {
@@ -295,18 +291,18 @@ main,
 /* Holidays Sale Descount Section End */
 
 /* Portfolio Section Start */
-.portfolio {
+.product-portfolio {
   margin-bottom: 50px 0 150px 0;
 }
 
-.portfolio strong {
+.product-portfolio strong {
   color: #f00;
   font-family: Inter;
   font-size: 24px;
   font-weight: 500;
 }
 
-.portfolio h2 {
+.product-portfolio h2 {
   color: #070211;
   font-family: Merriweather;
   font-size: 48px;
@@ -314,7 +310,7 @@ main,
   margin: 16px 0 22px;
 }
 
-.portfolio p {
+.product-portfolio p {
   color: #07021199;
   font-family: Inter;
   font-size: 20px;
@@ -348,8 +344,8 @@ main,
 }
 /* Portfolio Section End */
 
-/* Subscribe Newsletter Section Start */
-.subscribe-newsletter {
+/* Newsletter Subscription Section Start */
+.newsletter-subscription {
   background-color: #ff00000d;
   border-radius: 16px;
   margin: 100px 0;
@@ -360,12 +356,12 @@ main,
   align-items: center;
 }
 
-.subscribe-newsletter img {
+.newsletter-subscription img {
   width: 150px;
   height: 150px;
 }
 
-.subscribe-newsletter h1 {
+.newsletter-subscription h1 {
   color: #070211;
   font-family: Merriweather;
   font-size: 48px;
@@ -373,7 +369,7 @@ main,
   margin: 40px 0 20px 0;
 }
 
-.subscribe-newsletter p {
+.newsletter-subscription p {
   color: #07021199;
   font-family: Inter;
   font-size: 20px;
@@ -417,7 +413,7 @@ main,
   right: 0;
   cursor: pointer;
 }
-/* Subscribe Newsletter Section End */
+/* Newsletter Subscription Section End */
 
 /* Main Section End */
 
@@ -443,7 +439,7 @@ footer {
 }
 
 /* Address Inofo */
-.adress-info,
+.address-contact-info,
 .copyright-unsubscribe {
   display: flex;
   align-items: center;
@@ -457,7 +453,7 @@ footer {
 }
 
 /* Social Icon */
-.social-icon {
+.social-media-links {
   margin: 48px 0;
   display: flex;
   align-items: center;
@@ -465,7 +461,8 @@ footer {
   gap: 24px;
 }
 
-.social-icon img {
+.social-media-links img {
   height: 64px;
+  cursor: pointer;
 }
 /* Footer Section End */
